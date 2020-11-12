@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table ToDo List</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="search-box">
+			<div class="title">
+				<h3 class="bg-secondary text-white text-center">Student Table</h3>
+			</div>
+			<div class="card">
+				<div class="card-body">
+					<div class="search-list d-flex mb-3">
+						<input class="form-control mr-sm-2" id="name" type="Name" placeholder="Name" aria-label="Search">
+						<input class="form-control mr-sm-2" id="address" type="Address" placeholder="Address" aria-label="Search">
+						<input class="form-control mr-sm-2" id="phone" type="Phone" placeholder="Phone" aria-label="Search">
+						<input class="form-control mr-sm-2" id="email" type="Email" placeholder="Email" aria-label="Search">
+						<button class="btn btn-outline-secondary my-2 my-sm-0" id="submit-btn" type="submit">Submit</button>
+					</div>
+					<table class="table">
+						<thead>
+						    <tr>
+						      <th scope="col">Name</th>
+						      <th scope="col">Address</th>
+						      <th scope="col">Phone</th>
+						      <th scope="col">Email</th>
+						      <th scope="col" class="text-right">Pointer</th>
+						    </tr>
+						</thead>
+						<tbody class="table-body">
+						    <tr class="bg-secondary text-white">
+						      <td>MgMg</td>
+						      <td>AungMyintTar Street</td>
+						      <td>09-793-477-310</td>
+						      <td>mgmg@email.com</td>
+						      <td class="text-right">
+						      	<a href="#" class="delet text-white">
+						      		<i class="fas fa-trash-alt"></i>
+						      	</a>
+						      </td>
+						    </tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/all.min.js"></script>
+</body>
+</html>
